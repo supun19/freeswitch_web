@@ -26,37 +26,38 @@
 			// You don't need to set display_name nor uri, they can be set via HTTP form in
 			// the Login section of the web
 			//
-			// window.SETTINGS =
-			// {
-			// 	display_name        : null,
-			// 	uri                 : null,
-			// 	password            : null,
-			// 	socket              :
-			// 	{
-			// 		uri           : 'wss://sip.yourdomain.com',
-			// 		via_transport : 'auto',
-			// 	},
-			// 	registrar_server    : null,
-			// 	contact_uri         : null,
-			// 	authorization_user  : null,
-			// 	instance_id         : null,
-			// 	session_timers      : true,
-			// 	use_preloaded_route : false,
-			// 	pcConfig            :
-			// 	{
-			// 		rtcpMuxPolicy : 'negotiate',
-			// 		iceServers    :
-			// 		[
-			// 			{ urls : [ 'stun:stun.l.google.com:19302' ] }
-			// 		]
-			// 	},
-			// 	callstats           :
-			// 	{
-			// 		enabled   : false,
-			// 		AppID     : null,
-			// 		AppSecret : null
-			// 	}
-			// };
+			 window.SETTINGS =
+			 {
+			 	display_name        : null,
+			 	uri                 : null,
+			 	password            : 1234,
+			 	socket              :
+			 	{
+			 		uri           : 'ws://34.209.247.97:5066',
+                    //uri           : 'ws://96.125.139.144:5066',
+			 		via_transport : 'auto',
+			 	},
+			 	registrar_server    : null,
+			 	contact_uri         : null,
+			 	authorization_user  : null,
+			 	instance_id         : null,
+			 	session_timers      : true,
+			 	use_preloaded_route : false,
+			 	pcConfig            :
+			 	{
+			 		rtcpMuxPolicy : 'negotiate',
+			 		iceServers    :
+			 		[
+			 			{ urls : [ 'stun:stun.l.google.com:19302' ] }
+			 		]
+			 	},
+			 	callstats           :
+			 	{
+			 		enabled   : false,
+			 		AppID     : null,
+			 		AppSecret : null
+			 	}
+			 };
 		</script>
 
 		<script src='tryit-jssip.js'></script>
